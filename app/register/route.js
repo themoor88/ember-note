@@ -12,7 +12,7 @@ export default Ember.Route.extend({
         self.controller.set('message', 'A new user with the name "' + self.controller.get('name') + '" was added!');
         self.controller.set('name', null);
       }, function() {
-        console.log('save failed');
+        console.log('save failed miserably');
       });
     }
   }
